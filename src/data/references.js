@@ -1,0 +1,40 @@
+/**
+ * Reference library index matching the 34 algorithms in MetaEquiv
+ */
+
+export const referenceLibrary = [
+  { code: "PSO", name: "Particle Swarm Optimization", year: 1995, author: "Kennedy & Eberhart", category: "Swarm-based" },
+  { code: "GWO", name: "Grey Wolf Optimizer", year: 2014, author: "Mirjalili et al.", category: "Bio-inspired" },
+  { code: "WOA", name: "Whale Optimization Algorithm", year: 2016, author: "Mirjalili & Lewis", category: "Bio-inspired" },
+  { code: "DE", name: "Differential Evolution", year: 1997, author: "Storn & Price", category: "Evolutionary" },
+  { code: "ABC", name: "Artificial Bee Colony", year: 2005, author: "Karaboga", category: "Swarm-based" },
+  { code: "FA", name: "Firefly Algorithm", year: 2009, author: "Yang", category: "Bio-inspired" },
+  { code: "SCA", name: "Sine Cosine Algorithm", year: 2016, author: "Mirjalili", category: "Math-inspired" },
+  { code: "BA", name: "Bat Algorithm", year: 2010, author: "Yang", category: "Bio-inspired" },
+  { code: "CS", name: "Cuckoo Search", year: 2009, author: "Yang & Deb", category: "Bio-inspired" },
+  { code: "ACO", name: "Ant Colony Optimization", year: 1992, author: "Dorigo", category: "Swarm-based" },
+  { code: "GA", name: "Genetic Algorithm", year: 1975, author: "Holland", category: "Evolutionary" },
+  { code: "ES", name: "Evolution Strategies", year: 1973, author: "Rechenberg", category: "Evolutionary" },
+  { code: "HHO", name: "Harris Hawks Optimization", year: 2019, author: "Heidari et al.", category: "Bio-inspired" },
+  { code: "SMA", name: "Slime Mould Algorithm", year: 2020, author: "Li et al.", category: "Bio-inspired" },
+  { code: "AOA", name: "Arithmetic Optimization Algorithm", year: 2021, author: "Abualigah et al.", category: "Math-inspired" },
+  { code: "SSA", name: "Salp Swarm Algorithm", year: 2017, author: "Mirjalili et al.", category: "Bio-inspired" },
+  { code: "MFO", name: "Moth-Flame Optimization", year: 2015, author: "Mirjalili", category: "Bio-inspired" },
+  { code: "DA", name: "Dragonfly Algorithm", year: 2016, author: "Mirjalili", category: "Bio-inspired" },
+  { code: "TLBO", name: "Teaching-Learning-Based Optimization", year: 2011, author: "Rao et al.", category: "Human-inspired" },
+  { code: "ICA", name: "Imperialist Competitive Algorithm", year: 2007, author: "Atashpaz-Gargari", category: "Socio-political" },
+  { code: "BBO", name: "Biogeography-Based Optimization", year: 2008, author: "Simon", category: "Ecology" },
+  { code: "GSA", name: "Gravitational Search Algorithm", year: 2009, author: "Rashedi et al.", category: "Physics-inspired" },
+  { code: "SA", name: "Simulated Annealing", year: 1983, author: "Kirkpatrick et al.", category: "Physics-inspired" },
+  { code: "TS", name: "Tabu Search", year: 1986, author: "Glover", category: "Trajectory-based" },
+  { code: "HS", name: "Harmony Search", year: 2001, author: "Geem et al.", category: "Music-inspired" },
+  { code: "WDO", name: "Wind Driven Optimization", year: 2010, author: "Bayraktar et al.", category: "Physics-inspired" },
+  { code: "CRO", name: "Chemical Reaction Optimization", year: 2010, author: "Lam & Li", category: "Chemical" },
+  { code: "FOA", name: "Fruit Fly Optimization Algorithm", year: 2012, author: "Pan", category: "Bio-inspired" },
+  { code: "KH", name: "Krill Herd Algorithm", year: 2012, author: "Gandomi & Alavi", category: "Bio-inspired" },
+  { code: "CFO", name: "Central Force Optimization", year: 2007, author: "Formato", category: "Physics-inspired" },
+  { code: "BFOA", name: "Bacterial Foraging Optimization", year: 2002, author: "Passino", category: "Bio-inspired" },
+  { code: " Jaya", name: "Jaya Algorithm", year: 2016, author: "Rao", category: "Parameter-less" },
+  { code: "Rao-1", name: "Rao Algorithms", year: 2020, author: "Rao", category: "Parameter-less" },
+  { code: "RUN", name: "Runge Kutta Optimizer", year: 2021, author: "Ahmadianfar et al.", category: "Math-inspired" }
+];
